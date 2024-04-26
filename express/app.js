@@ -11,7 +11,7 @@ app.get('/imagem-do-dia', async (req, res) => {
     try{
         const response = await axios.get('https://api.nasa.gov/planetary/apod', {
             params: {
-                api_key: 'SUA_API_KEY', 
+                api_key: 'bWZncs8qksIbxcLWihs3EmQgyabspO5UgegxHFK4', 
             },
         });
         
